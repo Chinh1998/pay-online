@@ -1,3 +1,5 @@
+import { LoginComponent } from './../component/signup/login/login.component';
+import { RegisterComponent } from './../component/signup/register/register.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -6,7 +8,9 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegisterComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

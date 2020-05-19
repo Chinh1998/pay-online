@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pay-online"
+    }
+  },
+  "defaultProject": "pay-online",
+  "cli": {
+    "analytics": "813b67b8-8936-45ae-b7a3-3f9865ef9f4f"
+  }
 }
